@@ -2,6 +2,12 @@ version: "3"
 services:
     web:
         build: .
+        image: kangaroux/jessie.moe
         ports:
             - 80:80
+            - 443:443
         restart: on-failure
+
+        # Uncomment for SSL
+        # volumes:
+        #     - LETS_ENCRYPT_DIR:/usr/share/letsencrypt/:ro
