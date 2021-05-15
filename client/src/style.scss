@@ -6,3 +6,26 @@ body {
     font-family: Verdana, sans-serif;
     font-size: 20px;
 }
+
+a, a:visited {
+    color: rgb(255, 172, 227);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.about-me {
+    width: 420px;
+}
+
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.spacer {
+    display: inline-block;
+    width: 12px;
+}

@@ -4,7 +4,8 @@
   "main": "dist/index.html",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf dist/* && parcel build --no-source-maps src/index.html",
+    "build": "parcel build --no-source-maps src/index.html",
+    "clean": "rm -rf dist/*",
     "start": "parcel serve src/index.html"
   },
   "devDependencies": {
