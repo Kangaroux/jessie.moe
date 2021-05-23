@@ -1,9 +1,9 @@
 import { h } from "preact";
 
-export const GoBack = () => {
+export const GoHome = () => {
     return (
         <p>
-            <a href="/">← Go back</a>
+            <a href="/">← Go home</a>
         </p>
     );
 }

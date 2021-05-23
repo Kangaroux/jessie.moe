@@ -1,10 +1,10 @@
 import { h } from "preact";
-import { GoBack } from "../GoBack";
+import { GoHome } from "../GoHome";
 
 export const Design = () => {
     return (
         <div>
-            <GoBack />
+            <GoHome />
 
             <article>
                 <h1>My design philosophy</h1>
