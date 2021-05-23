@@ -2,6 +2,7 @@ import Router from "preact-router";
 import { h } from "preact";
 
 import { Home } from "./pages/Home";
+import { Consulting } from "./pages/Consulting";
 import { Design } from "./pages/Design";
 
 export const App = () => {
@@ -9,6 +10,7 @@ export const App = () => {
         <main role="main" className="app-container">
             <Router>
                 <Home path="/" />
+                <Consulting path="/consulting" />
                 <Design path="/design" />
             </Router>
 

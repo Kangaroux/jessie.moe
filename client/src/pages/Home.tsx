@@ -17,13 +17,14 @@ export const Home = () => {
             <article>
                 <h2>Some links</h2>
 
-                <ul>
-                    <li><a href="/design">My Design Philosophy</a></li>
+                <ul className="thick-margin">
+                    <li><a href="/consulting">Consulting</a></li>
+                    <li><a href="/design">Design Philosophy</a></li>
                 </ul>
 
                 <h2>Some more links</h2>
 
-                <ul>
+                <ul className="thick-margin">
                     <li><a href="mailto:me@jessie.moe">Email</a></li>
                     <li><a href="https://github.com/Kangaroux" target="_blank">GitHub</a></li>
                     <li><a href={resume} target="_blank">Resume</a></li>
