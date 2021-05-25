@@ -1,5 +1,7 @@
 import { h } from "preact";
+
 import { GoHome } from "../GoHome";
+
 
 export const Design = () => {
     return (

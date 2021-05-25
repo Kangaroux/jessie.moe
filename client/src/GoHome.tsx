@@ -1,5 +1,6 @@
 import { h } from "preact";
 
+
 export const GoHome = () => {
     return (
         <p>

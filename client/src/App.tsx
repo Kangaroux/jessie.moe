@@ -1,9 +1,10 @@
 import Router from "preact-router";
 import { h } from "preact";
 
-import { Home } from "./pages/Home";
 import { Consulting } from "./pages/Consulting";
 import { Design } from "./pages/Design";
+import { Home } from "./pages/Home";
+
 
 export const App = () => {
     return (
